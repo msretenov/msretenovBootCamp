@@ -1,0 +1,359 @@
+        /* Mobile first */
+
+        body {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            font-family: Verdana, Times, sans-serif;
+        }
+        header {
+			width: 100%;
+            top: 0;
+            left: 0;
+			background: white;
+            text-shadow: 8px 8px 14px black;
+			text-align: center;
+            top: 0;
+            left: 0;
+            color: #FE2712;
+            border-radius: 4px;
+            z-index: 1;
+            font-weight: 600;
+		}
+        main {
+            position: relative;
+	        display: flex;
+         	flex-direction: column-reverse;
+            height: 100%;
+            top: 100px;
+            background: white;
+        }
+        aside { 
+            display: flex;
+            width:100%;
+            flex-direction: column;
+            text-align: center;
+            background: #FE2712;
+        } 
+        content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        	height: 100%;
+            background: whitesmoke;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        	text-align: justify;
+            border-radius: 6px;
+            padding: 4px;
+        }
+          section {
+              text-align: justify;
+          } 
+		.par{
+            text-align: center;
+        }
+
+        #floatLeftImg {
+            float:left;
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+
+		nav { 
+            width:100%;
+            display: flex;
+	        flex-direction: column;
+            width: 100%;
+            height: 30px;
+            background: #FE2712;
+            top:100px;
+            border:2px solid black;
+            border-radius: 6px;
+            text-align: center;
+            text-shadow: 2px 2px 3px black;
+            text-decoration: none;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+        
+        nav ul {
+            display: inline-block;
+            font-size: 17px;
+            padding: 0 0px;
+            margin: 0 50px;
+            text-align: center;
+            }
+
+        nav ul li {
+            float: left;
+            list-style: none;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            text-align: center;
+            font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+            color: #FE2712;
+            background-color: white
+            padding: 5px 10px 20px 10px;
+            margin: 1px 10px 1px 10px;
+            text-decoration: none;
+            border: 2px solid #FE2712;
+            border-radius: 6px;
+            width: 150px;
+            float: left;
+        }
+
+        nav ul li a:hover {
+            background-color: whitesmoke;
+            color: #FE2712;
+            margin-bottom: 4px;
+            font-weight: 500;
+            font-style: italic;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+        }  
+        nav ul li:hover ul {
+            display: block;
+        }
+        /*Padajuca lista iz Ostali klubovi*/
+        nav ul li ul li {
+            position: relative;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;;
+            background-color: #FE2712;
+            color: whitesmoke;
+            text-shadow: none;
+            border-radius: 0 0 2px 2px;
+            top: 28px;
+            }
+
+        nav ul li ul li a {
+            font-size: 15px;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+            text-align: center;
+            color:whitesmoke;
+            width: 150px;
+            padding: 0px;
+            margin-left: 10px;
+        }  
+
+        nav ul li ul li a:hover {
+            background-color: whitesmoke;
+            color: #FE2712;
+            font-weight: 600;
+            font-style: italic;
+            margin-left: 10px;
+            padding: 0;
+            }  
+                }
+        #floatRight {
+            float:right;
+        }
+        .buttons {
+            color: white;
+        }
+        
+        #imgFloatRight {
+            float:right;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        #imgFloatRight:hover {
+            opacity: 0.7;
+        }
+
+        #imgFloatLeft {
+            float: left;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        #imgFloatLeft:hover {
+            opacity: 0.7;
+        }
+        #imgCenter {
+            display: block;
+            margin: 4px auto;
+            width: 98%;
+            border:2px solid #FE2712;
+            border-radius: 6px
+        }
+        #imgCenter:hover {
+            opacity: 0.7;
+        }
+        h4 {
+            text-align: center;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+            font-style: italic;
+            color:#FE2712;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .center {
+            text-align: center;
+            font-style: italic;
+            font-weight: 600;   
+            text-shadow: 2px 3px 3px black;
+            color:#FE2712;      
+        }
+
+        #centered {
+            text-align: center;
+            font-style: italic;
+            font-size: 1em;
+
+        }
+        section {
+            text-indent: 30px;
+            padding: 10px;
+        }
+       
+        .sideBarList {
+                list-style-type: none;
+                padding: 0 10px;
+                margin-top: 10px;
+                text-align: center;
+        }
+        ul.sideBarList li a {
+            display: block;
+            color: whitesmoke;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+        }
+        ul.sideBarList li a:hover {
+            background: whitesmoke;
+            color:#FE2712;
+            text-shadow: 1px 1px 2px black;
+            font-size:1.3em;
+        }
+        #fifa2018 {
+            border: 3px solid whitesmoke;
+            border-radius: 8px; 
+        }
+        #fifa2018:hover {
+            border: 4px solid #FE2712;
+            opacity: 0.8;
+        }
+        
+        footer {
+            width: 100%;
+            min-height: 40px;
+            clear: both;
+            border: 2px solid black;
+            border-radius: 6px;
+            box-sizing: border-box;
+            background: #FE2712;
+            text-align: center;
+            bottom:0;
+        }
+        .footerPar {
+            text-decoration: none;
+            color: whitesmoke;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+            text-align: left;
+            margin-left: 10px;;
+        }
+        .footerPar a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-style: italic;
+        }
+        
+        /* Racunar */ 
+@media only screen and (min-width: 800px){
+
+        body{
+            max-width: 1000px;
+            height: 3500px;
+            margin: 0 auto;
+            background-image: url(img/Pozadina4.jpg);
+            }
+
+        header {
+            width: 100%;
+            height:100px;
+            background: white;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+            text-shadow: 5px 5px 10px black;
+            text-align: center;
+            font-size: 50px;
+            position: fixed;
+            top: 0;
+            color: #FE2712;
+            border-radius: 4px;
+        } 
+        nav { 
+            max-width: 1000px;
+            height: 30px;
+            background: #FE2712;
+            position: fixed;
+            top:100px;
+            border:2px solid black;
+            border-radius: 6px;
+            text-align: center;
+            text-shadow: 5px 5px 6px black;
+            text-decoration: none;
+            box-sizing: border-box;
+            }
+        nav ul {
+            display: inline-block;
+            text-align: center;
+            font-size: 17px;
+            padding: 0 0px;
+            margin: 0 30px 0px 0;
+                }
+    
+        nav ul li {
+            list-style: none;
+            position: relative;
+            text-align: center;
+            }    
+        main {
+            display: flex;
+		    flex-direction: row-reverse;
+            top: 100px;
+            width: 100%;
+        	height: 100%;
+            background: white;
+            margin: 30px 0 40px 0;
+        }
+        aside {
+            float: right;
+            right: 0;
+            max-width: 250px;
+        	height: 100%;
+            background: #FE2712;
+            
+        }
+        content{    
+            max-width: 750px;
+        	height: 3500px;
+            background: whitesmoke;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        	text-align: justify;
+            border-radius: 6px;
+        }        
+        
+        .sideBarList {
+            list-style-type: none;
+            max-width: 250px;
+            padding: 0;
+            text-align: center;
+        }
+        footer {
+            margin:0 auto;
+            width: 1000px;
+            clear: both;
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            width: 1000px;
+        }
+    }    
